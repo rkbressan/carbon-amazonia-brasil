@@ -71,35 +71,13 @@ body {
     padding: 0;
 }
 
-.realstate {
-    color: rgb(255, 255, 255);
-    font-size: 50px;
-    padding: 50px;
-    padding-bottom: 100px;
-    padding-left: 400px;
-    padding-right: 400px;
-    text-align: center;
-    text-shadow: 7px 7px 7px black;
-}
-
-.pronunciation {
-    color: rgb(86, 190, 0);
-    display: flex;
-    flex-direction: row;
-    font-size: 40px;
-    margin-left: 50px;
-    margin-right: 50px;
-    text-align: center;
-    text-shadow: 5px 5px 5px black;    
-}
-
-.lulavideo {
+.amazoniavideo {
     height: 500px;
     position: center;
     width: 800px;
 }
 
-.lula {
+.video {
     color: rgb(255, 255, 255);
     font-size: 25px;
     padding: 50px;
@@ -108,16 +86,16 @@ body {
     text-shadow: 7px 7px 7px black;
 }
 
-.norway {
+.biodiversity {
     align-items: center;
     background-color: rgb(6, 5, 87);
     display: flex;
     flex-direction: row;
 }
 
-.norwaytitle {
+.biodiversitytitle {
     color: rgb(86, 190, 0);
-    font-size: 80px;
+    font-size: 25px;
     text-align: center;
     text-shadow: 5px 5px 5px black;
 }
@@ -127,20 +105,13 @@ body {
     width: 45%;
 }
 
-.norwaytxt {
-    color: rgb(255, 255, 255);
-    font-size: 25px;
-    padding: 50px;
-    padding-bottom: 100px;
-    text-align: center;
-    text-shadow: 7px 7px 7px black;
-}
 
 .footer {
     background-color: rgb(76, 6, 119);
     color: white;
     font-size: 20px;
     height: 50px;
+    margin-top: 50px;
     padding: 5px;
     position: relative;
     text-align: center;

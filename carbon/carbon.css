@@ -1,0 +1,143 @@
+header {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15px;
+    text-shadow: 7px 7px 7px black;
+}
+
+@keyframes bounce {
+
+    0%,
+    20%,
+    60%,
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    40% {
+        -webkit-transform: translateY(-20px);
+        transform: translateY(-20px);
+    }
+
+    80% {
+        -webkit-transform: translateY(-10px);
+        transform: translateY(-10px);
+    }
+}
+
+.efeito {
+    border: none;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 24px;
+    line-height: 24px;
+    margin: 10px;
+    padding: 20px;
+    position: relative;
+    text-shadow: 3px 3px 3px black;
+    transition: all 400ms ease;
+}
+
+.efeito2 {
+    background-color: #018a23;
+}
+
+.efeito2:before {
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    content: '';
+    height: 64px;
+    left: 0px;
+    position: absolute;
+    transition: all 2s ease;
+    top: 0px;
+    width: 0px;
+}
+
+.efeito2:hover:before {
+    width: 100%;
+}
+
+body {
+    background-color: rgb(76, 6, 119);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.realstate {
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    padding: 50px;
+    padding-bottom: 100px;
+    padding-left: 400px;
+    padding-right: 400px;
+    text-align: center;
+    text-shadow: 7px 7px 7px black;
+}
+
+.pronunciation {
+    color: rgb(86, 190, 0);
+    display: flex;
+    flex-direction: row;
+    font-size: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+    text-shadow: 5px 5px 5px black;    
+}
+
+.lulavideo {
+    height: 500px;
+    position: center;
+    width: 800px;
+}
+
+.lula {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    padding: 50px;
+    padding-bottom: 100px;
+    text-align: center;
+    text-shadow: 7px 7px 7px black;
+}
+
+.norway {
+    align-items: center;
+    background-color: rgb(6, 5, 87);
+    display: flex;
+    flex-direction: row;
+}
+
+.norwaytitle {
+    color: rgb(86, 190, 0);
+    font-size: 80px;
+    text-align: center;
+    text-shadow: 5px 5px 5px black;
+}
+
+.amazoniapng {
+    height: 45%;
+    width: 45%;
+}
+
+.norwaytxt {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    padding: 50px;
+    padding-bottom: 100px;
+    text-align: center;
+    text-shadow: 7px 7px 7px black;
+}
+
+.footer {
+    background-color: rgb(76, 6, 119);
+    color: white;
+    font-size: 20px;
+    height: 50px;
+    padding: 5px;
+    position: relative;
+    text-align: center;
+}

@@ -84,40 +84,55 @@ body {
 }
 
 .realstate {
-    color: rgb(255, 255, 255);
-    font-size: 50px;
+    background-color: white;
+    color: #030;
+    font-size: 40px;
+    font-weight: bold;
     padding: 50px;
-    padding-bottom: 100px;
+    padding-bottom: 0px;
     padding-left: 400px;
     padding-right: 400px;
     text-align: center;
-    text-shadow: 7px 7px 7px black;
+    text-shadow: 1px 1px 1px rgb(46, 94, 48);
+}
+
+.expertise {
+    background-color: white;
+    color: #f39c12;
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 50px;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgb(46, 94, 48);
 }
 
 .pronunciation {
-    color: rgb(86, 190, 0);
-    display: flex;
-    flex-direction: row;
-    font-size: 40px;
-    margin-left: 50px;
-    margin-right: 50px;
+    background-color: white;
+    color: rgb(76, 6, 119);
+    font-size: 30px;
+    margin-left: 450px;
+    margin-right: 450px;
+    padding-top: 10px;
     text-align: center;
-    text-shadow: 5px 5px 5px black;
+    text-shadow: 1px 1px 1px black;
 }
 
 .lulavideo {
+    background-color: white;
     height: 500px;
     position: center;
+    text-align: center;
     width: 800px;
 }
 
 .lula {
-    color: rgb(255, 255, 255);
-    font-size: 25px;
+    background-color: white;
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 500px;
+    margin-right: 500px;
     padding: 50px;
     padding-bottom: 100px;
-    text-align: center;
-    text-shadow: 7px 7px 7px black;
 }
 
 .norway {
@@ -128,7 +143,7 @@ body {
 }
 
 .norwaytitle {
-    color: rgb(86, 190, 0);
+    color: #27ae60;
     font-size: 80px;
     text-align: center;
     text-shadow: 5px 5px 5px black;
@@ -142,6 +157,8 @@ body {
 .norwaytxt {
     color: rgb(255, 255, 255);
     font-size: 25px;
+    margin-left: 450px;
+    margin-right: 450px;
     padding: 50px;
     padding-bottom: 100px;
     text-align: center;

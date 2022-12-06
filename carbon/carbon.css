@@ -25,6 +25,18 @@ header {
     }
 }
 
+.fotosindex {
+    background-attachment: fixed;
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+    border: 0;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 .menu {
     text-align: center;
 }
@@ -90,7 +102,7 @@ body {
     margin-left: 50px;
     margin-right: 50px;
     text-align: center;
-    text-shadow: 5px 5px 5px black;    
+    text-shadow: 5px 5px 5px black;
 }
 
 .lulavideo {

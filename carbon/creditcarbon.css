@@ -37,7 +37,7 @@ header {
     cursor: pointer;
     font-size: 24px;
     line-height: 24px;
-    margin: 10px;
+    margin: 20px;
     padding: 20px;
     position: relative;
     text-shadow: 3px 3px 3px black;
@@ -65,24 +65,31 @@ header {
 }
 
 body {
-    background-color: rgb(76, 6, 119);
+    background-color: white;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 .texto1 {
-    color: rgb(23, 221, 23);
-    font-size: 50px;
-    margin-top: 80px;
-    text-align: center;
-    text-shadow: 5px 5px 5px black;    
+    color: #003300;
+    font-size: 34px;
+    margin-bottom: 100px;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 200px;
+    text-shadow: 1px 1px 1px black;
 }
 
 .footer {
     background-color: rgb(76, 6, 119);
+    bottom: 0;
     color: white;
     font-size: 20px;
     height: 50px;
+    margin: auto;
     padding-top: 40px;
-    position: relative;
+    position: fixed;
     text-align: center;
+    width: 100%;
 }

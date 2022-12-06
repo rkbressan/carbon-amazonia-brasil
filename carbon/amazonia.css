@@ -1,6 +1,6 @@
 header {
+    background-color: rgb(76, 6, 119);
     font-family: Arial, Helvetica, sans-serif;
-    margin: 15px;
     text-shadow: 7px 7px 7px black;
 }
 
@@ -73,7 +73,6 @@ body {
 
 .amazoniavideo {
     height: 500px;
-    position: center;
     width: 800px;
 }
 
@@ -88,16 +87,15 @@ body {
 
 .biodiversity {
     align-items: center;
-    background-color: rgb(6, 5, 87);
+    background-color: rgb(245, 245, 245);
     display: flex;
     flex-direction: row;
 }
 
 .biodiversitytitle {
-    color: rgb(86, 190, 0);
+    color: #0000FF;
     font-size: 25px;
-    text-align: center;
-    text-shadow: 5px 5px 5px black;
+    margin: 20px;
 }
 
 .amazoniapng {

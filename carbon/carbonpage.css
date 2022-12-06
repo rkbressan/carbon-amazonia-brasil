@@ -1,6 +1,6 @@
 header {
+    background-color: rgb(76, 6, 119);
     font-family: Arial, Helvetica, sans-serif;
-    margin: 15px;
     text-shadow: 7px 7px 7px black;
 }
 
@@ -65,7 +65,7 @@ header {
 }
 
 body {
-    background-color: rgb(76, 6, 119);
+    background-color: rgb(255, 255, 255);
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
@@ -77,8 +77,6 @@ body {
     font-size: 35px;
     padding: 20px;
     padding-bottom: 20px;
-    text-align: center;
-    text-shadow: 7px 7px 7px black;
 }
 
 .amazonia003 {
@@ -86,15 +84,12 @@ body {
 }
 
 .texto2 {
-    color: rgb(255, 255, 255);
     font-size: 25px;
     margin-top: 20px;
     margin-left: 200px;
     margin-right: 200px;
     padding: 20px;
     padding-bottom: 20px;
-    text-align: center;
-    text-shadow: 7px 7px 7px black;
 }
 
 .amazonia004 {
@@ -102,18 +97,14 @@ body {
 }
 
 .texto3 {
-    background-color: rgb(6, 5, 87);
-    color: rgb(255, 255, 255);
+    background-color: rgb(245, 245, 245);
     font-size: 25px;
     padding: 20px;
     padding-bottom: 20px;
-    text-align: center;
-    text-shadow: 7px 7px 7px black;
 }
 
 .footer {
     background-color: rgb(76, 6, 119);
-    color: white;
     font-size: 20px;
     height: 50px;
     padding-top: 40px;

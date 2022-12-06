@@ -79,12 +79,10 @@ body {
 
 .footer {
     background-color: rgb(76, 6, 119);
-    bottom: 0;
     color: white;
     font-size: 20px;
     height: 50px;
-    margin-top: 50px;
-    padding: 5px;
+    padding-top: 40px;
     position: relative;
     text-align: center;
 }
